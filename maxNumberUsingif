@@ -1,0 +1,34 @@
+import java.util.Scanner;
+/*Write a program to find maximum between two numbers using simple if?
+Input : 12 10
+Output : 12 is maximum number
+*/
+
+public class MaxNumber {
+
+	public void eneterInput() {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter a value");
+		int a= sc.nextInt();
+		
+		System.out.println("Enter b value");
+		int b= sc.nextInt();
+		maxno(a,b);
+		
+	}
+	public void maxno(int i, int j)
+	{
+		if(i>j) {
+			System.out.println("maxno: "+ i);
+		}
+		else {
+			System.out.println("maxno: "+ j);
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MaxNumber obj= new MaxNumber();
+		obj.eneterInput();
+	}
+
+}
