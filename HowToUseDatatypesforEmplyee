@@ -1,0 +1,21 @@
+public class EmployeeDataTypes {
+
+	String empname="HH";
+	byte age=25;
+	float hight=5.9f;
+	byte weight=58;
+	int salary= 100000;
+	String designation="developer";
+	boolean isaccess= true;
+	double distancefromhome=500.90;
+	long empid= 3445572546l;
+	String joiningdate= "15/04/2021";  // i am doubtfull ,how to declare a date
+	char buildingBlock ='A';
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
