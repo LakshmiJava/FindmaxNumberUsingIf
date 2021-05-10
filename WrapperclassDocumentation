@@ -1,0 +1,49 @@
+public class ThirdClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 10;
+		Integer iobj = Integer.valueOf(i);
+		System.out.println(iobj);
+	}
+
+}
+//-----------------------------
+
+import java.util.ArrayList;
+
+public class UnboxingConversion {
+	private int i;
+
+	UnboxingConversion(int i) {
+		this.i = i;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		UnboxingConversion obj1 = new UnboxingConversion(50);
+		System.out.println(obj1);
+
+		Integer marks = 98;
+		int m = marks.valueOf(98);
+		System.out.println(m);
+
+//unboxing
+
+		Integer points = 88;
+		int p = points;
+		System.out.println(p);
+
+		ArrayList l = new ArrayList(); // Autoboxing
+		l.add(10);
+
+		ArrayList<Integer> lo = new ArrayList<Integer>();
+		lo.add(20);
+
+//ArrayList<int>li= new ArrayList<int>();
+//li.add(30);
+
+	}
+
+}
+
